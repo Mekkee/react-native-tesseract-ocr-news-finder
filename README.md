@@ -1,5 +1,5 @@
 # react-native-tesseract-ocr-news-finder
-Want to read your physical news article in a digital format? Open the app, snap a photo of the article title, and make a search for it.
+## Want to read your physical news article in a digital format? Open the app, snap a photo of the article title, and make a search for it.
 
 ### 1. Gå igenom alla steg och installera React Native CLI
  https://facebook.github.io/react-native/docs/getting-started
@@ -33,3 +33,5 @@ https://github.com/proyecto26/react-native-inappbrowser
 Öppna 2 terminaler, koppla upp mobilen med USB, kör sen:
 1. npm run start	(startar servern)
 2. npx react-native run-android	(installera & launch app)
+
+### Credit to https://github.com/jonathanpalma for the orignal lib, I'v only made some modifications for this use case!
