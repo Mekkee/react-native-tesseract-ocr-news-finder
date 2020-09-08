@@ -92,7 +92,6 @@ export default class HomeScreen extends Component {
   }
 
   // running query string against monoks api and selecting the first newsarticle ID that fits the search result the best
-  // under reconstruction atm
   getArticle = searchQuery => {
     let monokApi = `https://www.monok.com/api/v1/search/?q=${searchQuery}&sort=relevant`;
 
@@ -137,18 +136,6 @@ export default class HomeScreen extends Component {
           enableUrlBarHiding: true,
           enableDefaultShare: true,
           forceCloseOnRedirection: false,
-          // Animation for browser slide in etc
-          // Specify full animation resource identifier(package:anim/name)
-          // or only resource name(in case of animation bundled with app).
-          /* animations: {
-            startEnter: 'slide_in_right',
-            startExit: 'slide_out_left',
-            endEnter: 'slide_in_left',
-            endExit: 'slide_out_right',
-          },
-          headers: {
-            'my-custom-header': 'my custom header value',
-          }, */
         });
         // A delay to show an alert when the browser is closed
         /* await this.sleep(800);
