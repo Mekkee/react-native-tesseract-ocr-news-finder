@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Button, StyleSheet} from 'react-native';
 
 /* 
-  Använd React Native Camera för att göra en snyggare och bättre kamerafunktion
+  Use React Native Camera for better camera functionality
   https://github.com/react-native-community/react-native-camera
 */
 
