@@ -30,8 +30,9 @@ In the data map there will be multiple "com." folders, go to "com.<projectName>"
 #### React native image picker
 After the installation you need to modify the AndroidManifest.xml file, open the file and add the following lines for camera and storage permissions:
 
-<uses-permission android:name="android.permission.CAMERA" /> 
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+`<uses-permission android:name="android.permission.CAMERA" />`
+
+`<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>`
 
 You'll find AndroidManifest.xml in android/app/src/main/AndroidManifest.xml.
 https://github.com/react-native-community/react-native-image-picker
@@ -39,7 +40,7 @@ https://github.com/react-native-community/react-native-image-picker
 You can use React Native Camera also:
 https://github.com/react-native-community/react-native-camera
 
-React native inAppBrowser
+#### React native inAppBrowser
 https://github.com/proyecto26/react-native-inappbrowser
 
 ### 4. Run the App on Smartphone
