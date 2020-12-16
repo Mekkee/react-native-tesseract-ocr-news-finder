@@ -2,7 +2,7 @@
 ## Want to read your physical news article in a digital format? Open the app, snap a photo of the article title, and make a search for it.
 
 ### 1. Go through all the steps and install React Native CLI
- https://facebook.github.io/react-native/docs/getting-started
+ https://reactnative.dev/docs/environment-setup
  
 ### 2. Setup your Android-unit
 https://facebook.github.io/react-native/docs/running-on-device
